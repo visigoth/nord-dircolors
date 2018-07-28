@@ -5,6 +5,20 @@
 # Repository: https://github.com/arcticicestudio/nord-dircolors
 # License:    MIT
 
+## Documentation
+#
+# Attribute codes:
+# 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+# Text color codes:
+# 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+# Background color codes:
+# 40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+#
+# Text 256 color coding:
+# 38;5;COLOR_NUMBER
+# Background 256 color coding:
+# 48;5;COLOR_NUMBER
+
 COLOR tty
 
 TERM ansi
@@ -85,6 +99,7 @@ STICKY 04;37;44
 .7z 01;32
 .ace 01;32
 .alz 01;32
+.apk 01;32
 .arc 01;32
 .arj 01;32
 .bz 01;32
@@ -94,6 +109,7 @@ STICKY 04;37;44
 .deb 01;32
 .dz 01;32
 .ear 01;32
+.gem 01;32
 .gz 01;32
 .jar 01;32
 .lha 01;32
@@ -175,6 +191,9 @@ STICKY 04;37;44
 .com 01;36
 .exe 01;36
 .reg 01;36
+.sh 01;36
+.zsh 01;36
+
 
 #+--- Ignores ---+
 *~ 02;37
